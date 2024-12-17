@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(45deg, #e0e0e0, #888888);
+    color: #2C2C2C;
+    font-family: "Noto Serif", serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333333;
+    color: white;
+    margin: 20px;
+    height: 49px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #ed2b4c;
+    font-size: 1.05rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+#element {
+    font-style: italic;
+    color: #ed2b4c;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.leftsec {
+    font-size: 3rem;
+    width: 50%;
+}
+
+.rightsec img {
+    margin: 80px 0;
+    height: 400px;
+}
+main hr{
+    border: 0;
+    margin: 40px 84px;
+    height: 1.3px;
+    background-color: #2C2C2C;
+}
+.secondsection {
+    margin: 90px 90px
+}
+.secondsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 90px;
+}
+.secondsection span.text{
+    font-size: 1.5rem;
+    margin: 75px 0;
+}
+.skill-category{
+    margin: 0 90px;
+}
+#sk1{
+    font-size: 1.5rem;
+    margin: 10px 20px;
+}
+#skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+}
+.gallery{
+    margin: 60px 90px
+}
+.gallery div{
+    margin: 60px 0
+}
+#webdev1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#webdev2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery ul li {
+    list-style: none;
+}
+.experience{
+    margin: 60px 90px;
+}
+.contact{
+    background-color:   #333333;
+    color: white; 
+    padding: 60px 90px;
+}
+.contact ul li{ 
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 20px;
+}
+.contact ul li img{
+    margin: 10px;
+}
+.contact ul li a {
+    text-decoration: none;
+    color: white;
+}
+.contact ul li a:hover {
+    color: #ed2b4c;
+    font-size: 1.05rem;
+}
